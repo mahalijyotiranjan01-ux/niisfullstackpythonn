@@ -1,6 +1,6 @@
 print("enter basic salary")
 sal=int(input())
-if sal>=5000:
+while sal<=5000:
 	da=sal*0.3
 	hra=sal*0.2
 else:
