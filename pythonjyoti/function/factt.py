@@ -1,4 +1,4 @@
-def facttest():
+def facttest(no):
 	print("enter  a number")
 	no=int(input())
 	f=1
@@ -6,4 +6,4 @@ def facttest():
 		f=f*no
 		no=no-1
 	print("facttest=",f)
-facttest()		
+facttest(no)		
